@@ -1,52 +1,353 @@
 [
     {
-        "question": "Which of the following is used to declare a variable in JavaScript?",
+        "question": "Which of the following is a mutable data type in JavaScript?",
+        "options": ["String", "Number", "Array", "Boolean"],
+        "answer": "Array"
+    },
+    {
+        "question": "Which keyword is used to declare a variable in JavaScript?",
         "options": ["var", "let", "const", "All of the above"],
         "answer": "All of the above"
     },
     {
-        "question": "Which company developed JavaScript?",
-        "options": ["Mozilla", "Netscape", "Microsoft", "Sun Microsystems"],
-        "answer": "Netscape"
+        "question": "How do you define a function in JavaScript?",
+        "options": ["function myFunc() {}", "def myFunc() {}", "create myFunc() {}", "new myFunc() {}"],
+        "answer": "function myFunc() {}"
     },
     {
-        "question": "How do you write a comment in JavaScript?",
-        "options": [" <!-- Comment --> ", "// Comment", "/* Comment */", "** Comment **"],
-        "answer": "// Comment"
+        "question": "Which of the following checks if 'a' is equal to 'b' in JavaScript?",
+        "options": ["a = b", "a == b", "a === b", "a equals b"],
+        "answer": "a == b"
     },
     {
-        "question": "Which method is used to convert a JSON string to an object?",
-        "options": ["JSON.stringify()", "JSON.parse()", "JSON.object()", "JSON.convert()"],
-        "answer": "JSON.parse()"
+        "question": "Which method adds an element to the end of an array in JavaScript?",
+        "options": ["push()", "pop()", "shift()", "unshift()"],
+        "answer": "push()"
     },
     {
-        "question": "How do you create a function in JavaScript?",
-        "options": ["function myFunction()", "def myFunction()", "function: myFunction()", "None of the above"],
-        "answer": "function myFunction()"
+        "question": "What is the difference between '==' and '===' in JavaScript?",
+        "options": ["'==' checks for value equality, while '===' checks for both value and type equality.", "'==' is used for comparisons, while '===' is used for assignments.", "'==' checks for type equality, while '===' checks for value equality.", "None of the above"],
+        "answer": "'==' checks for value equality, while '===' checks for both value and type equality."
     },
     {
-        "question": "Which event occurs when the user clicks on an HTML element?",
-        "options": ["onchange", "onclick", "onmouseclick", "onmouseover"],
-        "answer": "onclick"
+        "question": "How do you create an object in JavaScript?",
+        "options": ["{}", "new Object()", "Object.create()", "All of the above"],
+        "answer": "All of the above"
     },
     {
-        "question": "How do you access an element by its ID in JavaScript?",
-        "options": ["document.getElementById()", "document.getElementsByClass()", "document.querySelector()", "document.getElement()"],
-        "answer": "document.getElementById()"
+        "question": "How do you access properties of an object in JavaScript?",
+        "options": ["objectName.property", "objectName[property]", "objectName.getProperty()", "None of the above"],
+        "answer": "objectName.property"
     },
     {
-        "question": "Which operator is used to assign a value to a variable?",
-        "options": ["=", "==", "===", "<-"],
+        "question": "What is the purpose of a 'for' loop in JavaScript?",
+        "options": ["To repeat a block of code multiple times", "To check a condition multiple times", "To store data in a temporary variable", "None of the above"],
+        "answer": "To repeat a block of code multiple times"
+    },
+    {
+        "question": "What is the difference between a function declaration and a function expression in JavaScript?",
+        "options": ["A function declaration defines a function and makes it available throughout the scope, while a function expression defines a function as part of a larger expression.", "A function declaration is used for defining functions, while a function expression is used for creating objects.", "A function declaration can be anonymous, while a function expression cannot.", "None of the above"],
+        "answer": "A function declaration defines a function and makes it available throughout the scope, while a function expression defines a function as part of a larger expression."
+    },
+    {
+        "question": "What is the purpose of a return statement in JavaScript?",
+        "options": ["To send data back from a function to the calling code", "To terminate a loop early", "To check a condition", "None of the above"],
+        "answer": "To send data back from a function to the calling code"
+    },
+    {
+        "question": "What is a module in JavaScript?",
+        "options": ["A file containing JavaScript code", "A collection of functions and variables", "A way to import external code into a program", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What is the purpose of the `prompt()` function in JavaScript?",
+        "options": ["To get user input from the console", "To display a message to the user", "To assign a value to a variable", "To terminate a program"],
+        "answer": "To get user input from the console"
+    },
+    {
+        "question": "How do you create a set in JavaScript?",
+        "options": ["new Set()", "set()", "createSet()", "newSet()"],
+        "answer": "new Set()"
+    },
+    {
+        "question": "How do you check if an element exists in a set in JavaScript?",
+        "options": [".includes()", ".has()", ".contains()", ".exists()"],
+        "answer": ".has()"
+    },
+    {
+        "question": "What is the difference between an object and an array in JavaScript?",
+        "options": ["Objects store data using key-value pairs, while arrays store data in a sequential order.", "Objects are mutable, while arrays are immutable.", "Objects are used for storing and retrieving data, while arrays are used for iterating over data.", "All of the above"],
+        "answer": "Objects store data using key-value pairs, while arrays store data in a sequential order."
+    },
+    {
+        "question": "How do you access values from an object in JavaScript?",
+        "options": ["objectName[key]", "objectName.get(key)", "objectName[value]", "None of the above"],
+        "answer": "objectName[key]"
+    },
+    {
+        "question": "What is the purpose of a 'while' loop in JavaScript?",
+        "options": ["To repeat a block of code until a condition is met", "To check a condition multiple times", "To store data in a temporary variable", "None of the above"],
+        "answer": "To repeat a block of code until a condition is met"
+    },
+    {
+        "question": "What is the difference between a 'break' and a 'continue' statement in JavaScript?",
+        "options": ["A 'break' statement terminates the loop immediately, while a 'continue' statement skips the current iteration and continues to the next one.", "A 'break' statement is used for exiting a loop early, while a 'continue' statement is used for skipping an iteration of a loop.", "A 'break' statement is only used with 'while' loops, while a 'continue' statement can be used with both 'while' and 'for' loops.", "None of the above"],
+        "answer": "A 'break' statement is used for exiting a loop early, while a 'continue' statement is used for skipping an iteration of a loop."
+    },
+    {
+        "question": "What is the purpose of a try-catch block in JavaScript?",
+        "options": ["To handle errors gracefully", "To check a condition", "To repeat a block of code", "None of the above"],
+        "answer": "To handle errors gracefully"
+    },
+    {
+        "question": "What is the difference between throwing an error and catching an error in JavaScript?",
+        "options": ["Throwing an error is explicit, while catching an error is implicit.", "Throwing an error signals an error, while catching an error handles it.", "Throwing an error is only used with try-catch blocks, while catching an error can be used outside of try-catch blocks.", "None of the above"],
+        "answer": "Throwing an error signals an error, while catching an error handles it."
+    },
+    {
+        "question": "What is the purpose of the `import` keyword in JavaScript?",
+        "options": ["To import external code into a program", "To define a function", "To create a variable", "To print a message to the console"],
+        "answer": "To import external code into a program"
+    },
+    {
+        "question": "What is the purpose of the `typeof` operator in JavaScript?",
+        "options": ["To check the type of a variable", "To convert a variable to another type", "To delete a variable", "To create a variable"],
+        "answer": "To check the type of a variable"
+    },
+    {
+        "question": "What is the difference between a class and an object in JavaScript?",
+        "options": ["A class is a blueprint for creating objects, while an object is an instance of a class.", "A class is used for defining attributes and methods, while an object is used for storing and manipulating data.", "A class is immutable, while an object is mutable.", "None of the above"],
+        "answer": "A class is a blueprint for creating objects, while an object is an instance of a class."
+    },
+    {
+        "question": "How do you create an object from a class in JavaScript?",
+        "options": ["new ClassName()", "objectName = new ClassName()", "ClassName = new objectName()", "None of the above"],
+        "answer": "objectName = new ClassName()"
+    },
+    {
+        "question": "What is the purpose of the `this` keyword in JavaScript?",
+        "options": ["To refer to the current object", "To define a function", "To create a variable", "To import external code"],
+        "answer": "To refer to the current object"
+    },
+    {
+        "question": "What is the difference between synchronous and asynchronous code in JavaScript?",
+        "options": ["Synchronous code executes in order, while asynchronous code can execute out of order.", "Synchronous code can be interrupted, while asynchronous code cannot.", "Synchronous code is used for defining functions, while asynchronous code is used for handling events.", "None of the above"],
+        "answer": "Synchronous code executes in order, while asynchronous code can execute out of order."
+    },
+    {
+        "question": "What is the purpose of a promise in JavaScript?",
+        "options": ["To handle asynchronous operations", "To define a function", "To create a variable", "To import external code"],
+        "answer": "To handle asynchronous operations"
+    },
+    {
+        "question": "How do you create a promise in JavaScript?",
+        "options": ["new Promise()", "createPromise()", "promise()", "Promise.create()"],
+        "answer": "new Promise()"
+    },
+    {
+        "question": "What is the purpose of the `await` keyword in JavaScript?",
+        "options": ["To pause the execution of a function until a promise is resolved", "To define a function", "To create a variable", "To import external code"],
+        "answer": "To pause the execution of a function until a promise is resolved"
+    },
+    {
+        "question": "What is the purpose of the `async` keyword in JavaScript?",
+        "options": ["To define an asynchronous function", "To create a variable", "To import external code", "To pause the execution of a function"],
+        "answer": "To define an asynchronous function"
+    },
+    {
+        "question": "What is the difference between a callback and a promise in JavaScript?",
+        "options": ["A callback is a function passed as an argument to another function, while a promise is an object representing the eventual completion or failure of an asynchronous operation.", "A callback is used for defining functions, while a promise is used for handling events.", "A callback is immutable, while a promise is mutable.", "None of the above"],
+        "answer": "A callback is a function passed as an argument to another function, while a promise is an object representing the eventual completion or failure of an asynchronous operation."
+    },
+    {
+        "question": "What is the purpose of the `map()` method in JavaScript?",
+        "options": ["To create a new array with the results of calling a function for every element in the array", "To iterate over an array", "To add a new element to an array", "To remove an element from an array"],
+        "answer": "To create a new array with the results of calling a function for every element in the array"
+    },
+    {
+        "question": "How do you remove the last element from an array in JavaScript?",
+        "options": [".remove()", ".pop()", ".delete()", ".shift()"],
+        "answer": ".pop()"
+    },
+    {
+        "question": "What is the difference between `forEach()` and `map()` in JavaScript?",
+        "options": ["`forEach()` executes a provided function once for each array element, while `map()` creates a new array with the results of calling a function for every element in the array.", "`forEach()` is used for defining functions, while `map()` is used for creating arrays.", "`forEach()` is immutable, while `map()` is mutable.", "None of the above"],
+        "answer": "`forEach()` executes a provided function once for each array element, while `map()` creates a new array with the results of calling a function for every element in the array."
+    },
+    {
+        "question": "What is the purpose of the `filter()` method in JavaScript?",
+        "options": ["To create a new array with all elements that pass a test implemented by a provided function", "To iterate over an array", "To add a new element to an array", "To remove an element from an array"],
+        "answer": "To create a new array with all elements that pass a test implemented by a provided function"
+    },
+    {
+        "question": "How do you check if an array contains a certain element in JavaScript?",
+        "options": [".contains()", ".has()", ".includes()", ".exists()"],
+        "answer": ".includes()"
+    },
+    {
+        "question": "What is the purpose of the `reduce()` method in JavaScript?",
+        "options": ["To execute a reducer function on each element of the array, resulting in a single output value", "To iterate over an array", "To add a new element to an array", "To remove an element from an array"],
+        "answer": "To execute a reducer function on each element of the array, resulting in a single output value"
+    },
+    {
+        "question": "What is the purpose of the `find()` method in JavaScript?",
+        "options": ["To return the first element in an array that satisfies a provided testing function", "To iterate over an array", "To add a new element to an array", "To remove an element from an array"],
+        "answer": "To return the first element in an array that satisfies a provided testing function"
+    },
+    {
+        "question": "Which of the following is a JavaScript framework?",
+        "options": ["React", "Django", "Flask", "Laravel"],
+        "answer": "React"
+    },
+    {
+        "question": "How do you declare a variable that cannot be reassigned in JavaScript?",
+        "options": ["var", "let", "const", "immutable"],
+        "answer": "const"
+    },
+    {
+        "question": "What will be the output of 'console.log(typeof null)' in JavaScript?",
+        "options": ["'null'", "'object'", "'undefined'", "'number'"],
+        "answer": "'object'"
+    },
+    {
+        "question": "What is the correct syntax to create an array in JavaScript?",
+        "options": ["var colors = 'red', 'green', 'blue'", "var colors = (1:'red', 2:'green', 3:'blue')", "var colors = ['red', 'green', 'blue']", "var colors = {1:'red', 2:'green', 3:'blue'}"],
+        "answer": "var colors = ['red', 'green', 'blue']"
+    },
+    {
+        "question": "How do you call a function named 'myFunction' in JavaScript?",
+        "options": ["call myFunction()", "call function myFunction()", "myFunction()", "execute myFunction()"],
+        "answer": "myFunction()"
+    },
+    {
+        "question": "Which operator is used to assign a value to a variable in JavaScript?",
+        "options": ["=", "==", "===", ":"],
         "answer": "="
     },
     {
-        "question": "What is the correct syntax for referring to an external script called 'script.js'?",
-        "options": [" <script src='script.js'> ", " <script href='script.js'> ", " <script ref='script.js'> ", " <script name='script.js'> "],
-        "answer": " <script src='script.js'> "
+        "question": "What is the output of 'console.log(2 + '2')' in JavaScript?",
+        "options": ["4", "22", "'22'", "undefined"],
+        "answer": "22"
+    },
+    {
+        "question": "How do you add a comment in JavaScript?",
+        "options": ["<!-- This is a comment -->", "# This is a comment", "// This is a comment", "/* This is a comment */"],
+        "answer": "// This is a comment"
+    },
+    {
+        "question": "Which built-in method returns the character at the specified index in a string?",
+        "options": ["charAt()", "getCharAt()", "char()", "getChar()"],
+        "answer": "charAt()"
+    },
+    {
+        "question": "How do you find the number with the highest value of x and y in JavaScript?",
+        "options": ["Math.ceil(x, y)", "Math.max(x, y)", "Math.floor(x, y)", "Math.round(x, y)"],
+        "answer": "Math.max(x, y)"
+    },
+    {
+        "question": "What is the correct syntax for referring to an external script called 'app.js'?",
+        "options": ["<script name='app.js'>", "<script href='app.js'>", "<script src='app.js'>", "<script file='app.js'>"],
+        "answer": "<script src='app.js'>"
+    },
+    {
+        "question": "How do you round the number 7.25 to the nearest integer?",
+        "options": ["Math.round(7.25)", "Math.floor(7.25)", "Math.ceil(7.25)", "Math.rnd(7.25)"],
+        "answer": "Math.round(7.25)"
     },
     {
         "question": "How do you write an 'if' statement in JavaScript?",
-        "options": ["if i == 5 then", "if i = 5", "if (i == 5)", "if i == 5"],
+        "options": ["if i == 5 then", "if (i == 5)", "if i = 5 then", "if i = 5"],
         "answer": "if (i == 5)"
+    },
+    {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "options": ["onchange", "onclick", "onmouseover", "onmouseclick"],
+        "answer": "onclick"
+    },
+    {
+        "question": "How do you declare a JavaScript variable?",
+        "options": ["variable carName;", "var carName;", "v carName;", "vr carName;"],
+        "answer": "var carName;"
+    },
+    {
+        "question": "Which operator is used to compare both value and type in JavaScript?",
+        "options": ["==", "===", "=", "!=="],
+        "answer": "==="
+    },
+    {
+        "question": "What is the method to remove the last element from an array in JavaScript?",
+        "options": ["pop()", "shift()", "remove()", "delete()"],
+        "answer": "pop()"
+    },
+    {
+        "question": "What is the keyword 'this' in JavaScript?",
+        "options": ["It refers to the current object", "It refers to the previous object", "It refers to the global object", "None of the above"],
+        "answer": "It refers to the current object"
+    },
+    {
+        "question": "What is the output of 'console.log(typeof NaN)' in JavaScript?",
+        "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
+        "answer": "'number'"
+    },
+    {
+        "question": "How can you add a property to an object in JavaScript?",
+        "options": ["object.propertyName = value;", "object.propertyName(value);", "object.propertyName : value;", "object(propertyName, value);"],
+        "answer": "object.propertyName = value;"
+    },
+    {
+        "question": "What is JSON?",
+        "options": ["A JavaScript library", "A JavaScript object", "A data format", "A function"],
+        "answer": "A data format"
+    },
+    {
+        "question": "What is the use of the 'let' keyword in JavaScript?",
+        "options": ["To declare a block-scoped variable", "To declare a function-scoped variable", "To declare a constant variable", "To declare a global variable"],
+        "answer": "To declare a block-scoped variable"
+    },
+    {
+        "question": "Which of the following is used to iterate over an array in JavaScript?",
+        "options": ["for", "while", "forEach", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "How do you convert a string to an integer in JavaScript?",
+        "options": ["parseInt()", "toString()", "String()", "convertToInt()"],
+        "answer": "parseInt()"
+    },
+    {
+        "question": "Which method is used to add one or more elements to the end of an array in JavaScript?",
+        "options": ["push()", "pop()", "shift()", "unshift()"],
+        "answer": "push()"
+    },
+    {
+        "question": "What is a promise in JavaScript?",
+        "options": ["An object representing the eventual completion or failure of an asynchronous operation", "A function that returns a value", "A variable that holds data", "None of the above"],
+        "answer": "An object representing the eventual completion or failure of an asynchronous operation"
+    },
+    {
+        "question": "What does the 'map()' method do in JavaScript?",
+        "options": ["Creates a new array with the results of calling a function for every array element", "Filters elements from an array", "Finds an element in an array", "None of the above"],
+        "answer": "Creates a new array with the results of calling a function for every array element"
+    },
+    {
+        "question": "What does 'typeof' operator return in JavaScript?",
+        "options": ["The type of a variable", "The size of a variable", "The value of a variable", "None of the above"],
+        "answer": "The type of a variable"
+    },
+    {
+        "question": "What is the correct syntax for creating an object in JavaScript?",
+        "options": ["var obj = { key: 'value' };", "var obj = ( key: 'value' );", "var obj = [ key: 'value' ];", "var obj = 'key: value';"],
+        "answer": "var obj = { key: 'value' };"
+    },
+    {
+        "question": "What does '=== ' operator do in JavaScript?",
+        "options": ["Compares both value and type", "Compares only value", "Assigns a value", "None of the above"],
+        "answer": "Compares both value and type"
+    },
+    {
+        "question": "What is a closure in JavaScript?",
+        "options": ["A function having access to the parent scope, even after the parent function has closed", "A variable that is closed to a function", "A function that returns another function", "None of the above"],
+        "answer": "A function having access to the parent scope, even after the parent function has closed"
     }
 ]
+

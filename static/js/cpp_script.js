@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	let correctAnswers = [];
     let incorrectAnswers = [];
 
-    fetch('/api/javascript_questions')
+    fetch('/api/cpp_questions')
     .then(response => response.json())
     .then(data => {
         questions = shuffleArray(data).slice(0, totalQuestions);

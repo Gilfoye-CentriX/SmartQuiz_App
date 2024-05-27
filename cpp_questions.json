@@ -1,52 +1,142 @@
 [
     {
-        "question": "Which of the following is the correct syntax to output 'Hello World' in C++?",
-        "options": ["print('Hello World');", "cout << 'Hello World';", "System.out.println('Hello World');", "echo 'Hello World';"],
-        "answer": "cout << 'Hello World';"
+        "question": "Which of the following is a fundamental data type in C++?",
+        "options": ["int", "string", "vector", "map"],
+        "answer": "int"
     },
     {
-        "question": "Which of the following data types is not fundamental in C++?",
-        "options": ["int", "float", "double", "string"],
-        "answer": "string"
-    },
-    {
-        "question": "Which keyword is used to declare a class in C++?",
-        "options": ["class", "struct", "type", "object"],
-        "answer": "class"
-    },
-    {
-        "question": "How do you create an object in C++?",
-        "options": ["ClassName objectName;", "ClassName objectName = new ClassName();", "objectName = new ClassName();", "None of the above"],
-        "answer": "ClassName objectName;"
-    },
-    {
-        "question": "Which of the following is used to define a constant in C++?",
-        "options": ["const", "let", "constant", "define"],
+        "question": "Which keyword is used to declare a constant variable in C++?",
+        "options": ["constant", "const", "final", "immutable"],
         "answer": "const"
     },
     {
-        "question": "Which header file is required for using input/output streams in C++?",
-        "options": ["<iostream>", "<stdio.h>", "<stdlib.h>", "<io.h>"],
-        "answer": "<iostream>"
+        "question": "How do you define a function in C++?",
+        "options": ["void myFunc() {}", "def myFunc() {}", "function myFunc() {}", "create myFunc() {}"],
+        "answer": "void myFunc() {}"
     },
     {
-        "question": "How do you write a comment in C++?",
-        "options": ["<!-- Comment -->", "// Comment", "** Comment **", "-- Comment"],
-        "answer": "// Comment"
+        "question": "Which of the following checks if 'a' is equal to 'b' in C++?",
+        "options": ["a = b", "a == b", "a === b", "a equals b"],
+        "answer": "a == b"
     },
     {
-        "question": "Which keyword is used to handle exceptions in C++?",
-        "options": ["try", "catch", "throw", "All of the above"],
+        "question": "Which operator is used to access the value at a memory address in C++?",
+        "options": ["&", "*", "@", "#"],
+        "answer": "*"
+    },
+    {
+        "question": "What is the difference between '==' and '!=' in C++?",
+        "options": ["'==' checks for equality, while '!=' checks for inequality.", "'==' checks for inequality, while '!=' checks for equality.", "'==' assigns a value, while '!=' compares values.", "None of the above"],
+        "answer": "'==' checks for equality, while '!=' checks for inequality."
+    },
+    {
+        "question": "How do you create an object in C++?",
+        "options": ["ClassName objectName;", "objectName = ClassName;", "new ClassName objectName;", "None of the above"],
+        "answer": "ClassName objectName;"
+    },
+    {
+        "question": "How do you access a member function of an object in C++?",
+        "options": ["objectName->functionName()", "objectName.functionName()", "objectName::functionName()", "None of the above"],
+        "answer": "objectName.functionName()"
+    },
+    {
+        "question": "What is the difference between 'new' and 'delete' in C++?",
+        "options": ["'new' allocates memory, while 'delete' deallocates memory.", "'new' deallocates memory, while 'delete' allocates memory.", "'new' creates variables, while 'delete' creates constants.", "None of the above"],
+        "answer": "'new' allocates memory, while 'delete' deallocates memory."
+    },
+    {
+        "question": "What is the purpose of a 'for' loop in C++?",
+        "options": ["To repeat a block of code multiple times", "To check a condition multiple times", "To store data in a temporary variable", "None of the above"],
+        "answer": "To repeat a block of code multiple times"
+    },
+    {
+        "question": "What is the difference between a pointer and a reference in C++?",
+        "options": ["A pointer can be reassigned, while a reference cannot be reassigned.", "A pointer points to a memory address, while a reference is an alias for an existing variable.", "A pointer can be null, while a reference cannot be null.", "All of the above"],
         "answer": "All of the above"
     },
     {
-        "question": "Which function is used to allocate memory dynamically in C++?",
-        "options": ["malloc()", "alloc()", "new", "create()"],
-        "answer": "new"
+        "question": "What is the purpose of the 'return' statement in C++?",
+        "options": ["To send data back from a function to the calling code", "To terminate a loop early", "To check a condition", "None of the above"],
+        "answer": "To send data back from a function to the calling code"
     },
     {
-        "question": "Which operator is used to access members of a structure through a pointer?",
-        "options": [".", "->", "::", "*"],
-        "answer": "->"
+        "question": "What is a class in C++?",
+        "options": ["A blueprint for creating objects", "A function that performs a specific task", "A data type that holds multiple values", "None of the above"],
+        "answer": "A blueprint for creating objects"
+    },
+    {
+        "question": "How do you define a constructor in a C++ class?",
+        "options": ["ClassName() {}", "void ClassName() {}", "constructor ClassName() {}", "def ClassName() {}"],
+        "answer": "ClassName() {}"
+    },
+    {
+        "question": "What is the purpose of the 'public' keyword in a C++ class?",
+        "options": ["To make class members accessible from outside the class", "To define a new class", "To declare a function as constant", "None of the above"],
+        "answer": "To make class members accessible from outside the class"
+    },
+    {
+        "question": "What is the difference between 'public' and 'private' access specifiers in C++?",
+        "options": ["'public' members are accessible from outside the class, while 'private' members are not.", "'public' members are not accessible from outside the class, while 'private' members are.", "'public' members can only be accessed by member functions, while 'private' members can be accessed directly.", "None of the above"],
+        "answer": "'public' members are accessible from outside the class, while 'private' members are not."
+    },
+    {
+        "question": "How do you inherit a class in C++?",
+        "options": ["class DerivedClass : public BaseClass {}", "class DerivedClass extends BaseClass {}", "class DerivedClass inherits BaseClass {}", "class DerivedClass : BaseClass {}"],
+        "answer": "class DerivedClass : public BaseClass {}"
+    },
+    {
+        "question": "What is polymorphism in C++?",
+        "options": ["The ability of different objects to be accessed through the same interface", "The ability to create multiple functions with the same name", "The ability to define a function within a class", "None of the above"],
+        "answer": "The ability of different objects to be accessed through the same interface"
+    },
+    {
+        "question": "What is the purpose of the 'virtual' keyword in C++?",
+        "options": ["To allow a function to be overridden in a derived class", "To define a new class", "To declare a function as constant", "None of the above"],
+        "answer": "To allow a function to be overridden in a derived class"
+    },
+    {
+        "question": "What is the difference between a virtual function and a pure virtual function in C++?",
+        "options": ["A virtual function has an implementation in the base class, while a pure virtual function does not.", "A virtual function can be overridden in a derived class, while a pure virtual function cannot.", "A virtual function is defined using the 'virtual' keyword, while a pure virtual function is defined using the 'override' keyword.", "None of the above"],
+        "answer": "A virtual function has an implementation in the base class, while a pure virtual function does not."
+    },
+    {
+        "question": "What is a template in C++?",
+        "options": ["A way to write generic and reusable code", "A function that performs a specific task", "A data type that holds multiple values", "None of the above"],
+        "answer": "A way to write generic and reusable code"
+    },
+    {
+        "question": "How do you define a template function in C++?",
+        "options": ["template<typename T> void myFunc(T param) {}", "template<T> void myFunc(T param) {}", "template<class T> void myFunc(T param) {}", "All of the above"],
+        "answer": "template<typename T> void myFunc(T param) {}"
+    },
+    {
+        "question": "What is the purpose of the 'namespace' keyword in C++?",
+        "options": ["To define a scope for identifiers", "To declare a function as constant", "To create a new class", "None of the above"],
+        "answer": "To define a scope for identifiers"
+    },
+    {
+        "question": "How do you include a standard library in C++?",
+        "options": ["#include <library>", "import library", "using library", "None of the above"],
+        "answer": "#include <library>"
+    },
+    {
+        "question": "What is the purpose of the 'std' namespace in C++?",
+        "options": ["To define a standard scope for the C++ Standard Library", "To declare a function as constant", "To create a new class", "None of the above"],
+        "answer": "To define a standard scope for the C++ Standard Library"
+    },
+    {
+        "question": "What is the difference between 'cout' and 'cin' in C++?",
+        "options": ["'cout' is used for output, while 'cin' is used for input.", "'cout' is used for input, while 'cin' is used for output.", "'cout' is used for defining variables, while 'cin' is used for defining constants.", "None of the above"],
+        "answer": "'cout' is used for output, while 'cin' is used for input."
+    },
+    {
+        "question": "How do you read a line of text from the standard input in C++?",
+        "options": ["getline(cin, variable);", "cin >> variable;", "cin.read(variable);", "None of the above"],
+        "answer": "getline(cin, variable);"
+    },
+    {
+        "question": "What is the purpose of the 'if' statement in C++?",
+        "options": ["To execute a block of code if a condition is true", "To repeat a block of code multiple times", "To store data in a temporary variable", "None of the above"],
+        "answer": "To execute a block of code if a condition is true"
     }
 ]

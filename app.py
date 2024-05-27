@@ -33,7 +33,11 @@ def javascript_quiz():
 def cpp_quiz():
     return render_template('cpp_quiz.html')
 
-@app.route('/api/questions')
+@app.route('/results')
+def results():
+    return render_template('results.html')
+
+@app.route('/api/python_questions')
 def api_python_questions():
     questions = load_python_questions()
     random.shuffle(questions)  # Shuffle the questions

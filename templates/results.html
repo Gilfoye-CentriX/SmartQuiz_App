@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/js_style.css') }}">
+</head>
+<body class="background-image">
+    <h1 class="results-heading">Quiz Results Summary</h1>
+    <div class="results-box">
+        <div id="results-container" class="results-container"></div>
+    </div>
+    <button id="home-button" onclick="window.location.href='/'">Home</button>
+    <footer>
+        <p>&copy; 2024 QuizSmart. All rights reserved.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/results_script.js') }}"></script>
+</body>
+</html>

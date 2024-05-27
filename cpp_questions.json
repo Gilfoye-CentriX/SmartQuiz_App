@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Which of the following is the correct syntax to output 'Hello World' in C++?",
+        "options": ["print('Hello World');", "cout << 'Hello World';", "System.out.println('Hello World');", "echo 'Hello World';"],
+        "answer": "cout << 'Hello World';"
+    },
+    {
+        "question": "Which of the following data types is not fundamental in C++?",
+        "options": ["int", "float", "double", "string"],
+        "answer": "string"
+    },
+    {
+        "question": "Which keyword is used to declare a class in C++?",
+        "options": ["class", "struct", "type", "object"],
+        "answer": "class"
+    },
+    {
+        "question": "How do you create an object in C++?",
+        "options": ["ClassName objectName;", "ClassName objectName = new ClassName();", "objectName = new ClassName();", "None of the above"],
+        "answer": "ClassName objectName;"
+    },
+    {
+        "question": "Which of the following is used to define a constant in C++?",
+        "options": ["const", "let", "constant", "define"],
+        "answer": "const"
+    },
+    {
+        "question": "Which header file is required for using input/output streams in C++?",
+        "options": ["<iostream>", "<stdio.h>", "<stdlib.h>", "<io.h>"],
+        "answer": "<iostream>"
+    },
+    {
+        "question": "How do you write a comment in C++?",
+        "options": ["<!-- Comment -->", "// Comment", "** Comment **", "-- Comment"],
+        "answer": "// Comment"
+    },
+    {
+        "question": "Which keyword is used to handle exceptions in C++?",
+        "options": ["try", "catch", "throw", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "Which function is used to allocate memory dynamically in C++?",
+        "options": ["malloc()", "alloc()", "new", "create()"],
+        "answer": "new"
+    },
+    {
+        "question": "Which operator is used to access members of a structure through a pointer?",
+        "options": [".", "->", "::", "*"],
+        "answer": "->"
+    }
+]

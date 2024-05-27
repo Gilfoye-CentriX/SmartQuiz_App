@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Questions</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/js_style.css') }}">
+</head>
+<body class="background-image">
+	<div id="timer"></div>
+    <button id="home-button" onclick="window.location.href='/'">Home</button>
+    <h1 class="question-heading">JavaScript Knowledge Assessment!</h1>
+    <div id="question-container" class="question-container"></div>
+    <div id="navigation-buttons" class="navigation-buttons">
+        <button id="prev-button" onclick="prevQuestion()" style="display:none;">Prev</button>
+        <button id="next-button" onclick="nextQuestion()">Next</button>
+        <button id="submit-button" onclick="showScore()" style="display:none;">Submit</button>
+    </div>
+	<footer>
+        <p>&copy; 2024 QuizSmart. All rights reserved.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/js_script.js') }}"></script>
+</body>
+</html>

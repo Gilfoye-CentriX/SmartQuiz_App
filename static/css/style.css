@@ -206,3 +206,67 @@ button:hover {
     font-size: 13px;
 }
 
+.header .nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header .nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.header .nav a:hover {
+    background-color: #0056b3;
+}
+
+.create-account-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+	opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.create-account-form h5 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.create-account-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.create-account-form input[type="text"],
+.create-account-form input[type="email"],
+.create-account-form input[type="password"] {
+	width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.create-account-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+	align-items: center;
+}
+
+.create-account-form button:hover {
+    background-color: #0056b3;
+}

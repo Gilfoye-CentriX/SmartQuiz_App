@@ -40,11 +40,6 @@
         "answer": "objectName.functionName()"
     },
     {
-        "question": "What is the difference between 'new' and 'delete' in C++?",
-        "options": ["'new' allocates memory, while 'delete' deallocates memory.", "'new' deallocates memory, while 'delete' allocates memory.", "'new' creates variables, while 'delete' creates constants.", "None of the above"],
-        "answer": "'new' allocates memory, while 'delete' deallocates memory."
-    },
-    {
         "question": "What is the purpose of a 'for' loop in C++?",
         "options": ["To repeat a block of code multiple times", "To check a condition multiple times", "To store data in a temporary variable", "None of the above"],
         "answer": "To repeat a block of code multiple times"

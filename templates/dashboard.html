@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartQuiz</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home_background.css') }}">
 </head>
 <body class="background-image">
     <div class="header">
-		<button id="home-button" onclick="window.location.href='login'">Login</button>
         <img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="SmartQuiz Logo" class="logo">
-        <h2 class="welcome-message">Welcome to SmartQuiz</h2>
+        <div class="nav">
+			<button id="home-button" onclick="window.location.href='logout'">Logout</button>
+        </div>
+        <h2 class="welcome-message">Welcome to your dashboard.'</h2>
+    </div>
+    <div class="content">
+        <h1>Choose topic!</h1>
+        <div class="quiz-options">
+            <button class="quiz-btn" onclick="startQuiz('python')">Python</button>
+            <button class="quiz-btn" onclick="startQuiz('javascript')">JavaScript</button>
+            <button class="quiz-btn" onclick="startQuiz('cpp')">C++</button>
+        </div>
     </div>
     <footer>
         <p>&copy; 2024 SmartQuiz. All rights reserved.</p>

@@ -26,6 +26,12 @@ h1 {
   color: var(--color-heading); /* Set the text color to dark blue */
 }
 
+h7 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: black; 
+}
+
 .question-card {
   background-color: #fff;
   border-radius: 10px;
@@ -206,25 +212,6 @@ button:hover {
     font-size: 13px;
 }
 
-.header .nav {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.header .nav a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #007BFF;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.header .nav a:hover {
-    background-color: #0056b3;
-}
-
 .create-account-form {
     max-width: 400px;
     margin: 0 auto;
@@ -238,6 +225,7 @@ button:hover {
 .create-account-form h5 {
     margin-bottom: 20px;
     text-align: center;
+	font-size: 18px;
 }
 
 .create-account-form label {

@@ -17,31 +17,31 @@ The SmartQuiz App is an interactive application designed to provide quizzes on P
 ## Installation
 
 1. **Clone the repository**
-   \\\ash
+   ```bash
    git clone https://github.com/Gilfoye-CentriX/SmartQuiz_App.git
    cd SmartQuiz_App
-   \\\
+   ```
 
 2. **Create a virtual environment and activate it**
-   \\\ash
+   ```bash
    python3 -m venv venv
    .\venv\Scripts\Activate
-   \\\
+   ```
 
 3. **Install the required packages**
-   \\\ash
+   ```bash
    pip install -r requirements.txt
-   \\\
+   ```
 
 4. **Set up the SQLite database**
-   \\\ash
+   ```bash
    python init_db.py
-   \\\
+   ```
 
 5. **Run the application**
-   \\\ash
+   ```bash
    flask run
-   \\\
+   ```
 
 6. **Access the application**
    Open your browser and go to \http://127.0.0.1:5000/\

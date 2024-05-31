@@ -1,73 +1,76 @@
 # SmartQuiz App
 
-SmartQuiz App is an interactive web application designed to provide quizzes on various programming languages including Python, JavaScript, and C++. This app helps users test and improve their coding knowledge.
-
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+## Introduction
+The SmartQuiz App is an interactive application designed to provide quizzes on Python, JavaScript, and C++. It features real-time score tracking, user authentication, and a detailed score result page. This app aims to offer an engaging and educational tool for learners to test their knowledge in various programming languages.
 
 ## Features
-- Quizzes for Python, JavaScript, and C++
-- Interactive user interface
 - Real-time score tracking
-- User-friendly design
+- User authentication (login and registration)
+- Detailed score result page showing percentage and correct/incorrect answers
+- Responsive and user-friendly interface
+
+## Technologies Used
+- **Front-end**: HTML, CSS, JavaScript
+- **Back-end**: Flask (Python)
+- **Database**: JSON files for quiz questions, SQLite for user authentication
 
 ## Installation
 
-### Prerequisites
-- Python 3.8 or higher
-- Flask
+1. **Clone the repository**
+   \\\ash
+   git clone https://github.com/Gilfoye-CentriX/SmartQuiz_App.git
+   cd SmartQuiz_App
+   \\\
 
-### Setup
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Gilfoye-CentriX/SmartQuiz_App.git
-    cd SmartQuiz_App
-    ```
+2. **Create a virtual environment and activate it**
+   \\\ash
+   python3 -m venv venv
+   .\venv\Scripts\Activate
+   \\\
 
-2. Create a virtual environment and activate it:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+3. **Install the required packages**
+   \\\ash
+   pip install -r requirements.txt
+   \\\
 
-3. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
+4. **Set up the SQLite database**
+   \\\ash
+   python init_db.py
+   \\\
+
+5. **Run the application**
+   \\\ash
+   flask run
+   \\\
+
+6. **Access the application**
+   Open your browser and go to \http://127.0.0.1:5000/\
 
 ## Usage
+- **Homepage**: Login or Create account
+- **Dashboard**: Select a quiz category
+- **Quiz**: Answer questions, with real-time score tracking
+- **Score Result Page**: View percentage score and detailed results of correct/incorrect answers
 
-1. Run the Flask app:
-    ```bash
-    python app.py
-    ```
-
-2. Open your web browser and navigate to `http://127.0.0.1:5000`.
-
-3. Choose a quiz and start testing your knowledge!
-
-## Project Structure
-- `app.py`: Main application script.
-- `static/`: Contains static files (CSS, JavaScript).
-- `templates/`: Contains HTML templates.
-- `cpp_questions.json`: C++ quiz questions.
-- `javascript_questions.json`: JavaScript quiz questions.
-- `python_questions.json`: Python quiz questions.
+## Future Improvements
+- Expanding the question database
+- Enhancing UI/UX
+- Adding advanced user features like profile customization
 
 ## Contributing
-
-Contributions are welcome! Please fork this repository and create a pull request with a detailed description of your changes.
+Contributions are welcome! Please follow these steps:
+1. Fork the repository
+2. Create a new branch (\git checkout -b feature-branch\)
+3. Commit your changes (\git commit -am 'Add new feature'\)
+4. Push to the branch (\git push origin feature-branch\)
+5. Create a new Pull Request
 
 ## License
-
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
+## Contact
+For any questions or suggestions, feel free to reach out or create an issue on GitHub.
 
-Special thanks to all contributors and open-source libraries used in this project.
+---
+
+**GitHub Repository**: [SmartQuiz_App](https://github.com/Gilfoye-CentriX/SmartQuiz_App)

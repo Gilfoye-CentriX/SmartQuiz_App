@@ -44,7 +44,7 @@ The SmartQuiz App is an interactive application designed to provide quizzes on P
    ```
 
 6. **Access the application**
-   Open your browser and go to \http://127.0.0.1:5000/\
+   Open your browser and go to \http://127.0.0.1:5000/
 
 ## Usage
 - **Homepage**: Login or Create account
